@@ -1,0 +1,31 @@
+.card {
+  background: var(--warm-white);
+  border: 1px solid var(--linen);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.gradientLine {
+  height: 4px;
+  background: linear-gradient(90deg, var(--sage), var(--terracotta));
+}
+
+.body {
+  padding: 20px;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--bark);
+  margin-bottom: 16px;
+}
+
+.content {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--text-light);
+  white-space: pre-wrap;
+}

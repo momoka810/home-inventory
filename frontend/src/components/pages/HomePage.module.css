@@ -1,0 +1,157 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.loading {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 40px 0;
+}
+
+.alertBanner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--terracotta-pale);
+  border: 1px solid var(--terracotta);
+  border-radius: var(--radius-lg);
+  padding: 12px 16px;
+  font-size: 14px;
+  color: var(--terracotta);
+}
+
+.alertIcon {
+  font-size: 18px;
+}
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.summaryCard {
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.summaryValue {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.summaryLabel {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 2px;
+  display: block;
+}
+
+.cardTerracotta {
+  background: var(--terracotta-pale);
+  border: 1px solid var(--terracotta);
+  color: var(--terracotta);
+}
+
+.cardAmber {
+  background: var(--amber-pale);
+  border: 1px solid var(--amber);
+  color: var(--amber);
+}
+
+.cardSage {
+  background: var(--sage-pale);
+  border: 1px solid var(--sage);
+  color: var(--sage);
+}
+
+.cardBark {
+  background: var(--linen);
+  border: 1px solid var(--bark);
+  color: var(--bark);
+}
+
+.okBanner {
+  text-align: center;
+  background: var(--sage-pale);
+  border: 1px solid var(--sage);
+  border-radius: var(--radius-xl);
+  padding: 24px 16px;
+}
+
+.okIcon {
+  font-size: 32px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.okTitle {
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--sage);
+}
+
+.okSub {
+  font-size: 13px;
+  color: var(--sage);
+  margin-top: 4px;
+}
+
+.section {
+  background: var(--warm-white);
+  border: 1px solid var(--linen);
+  border-radius: var(--radius-xl);
+  padding: 16px;
+}
+
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--bark);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.alertList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.alertItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background: var(--cream);
+  border-radius: var(--radius-md);
+}
+
+.alertName {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.alertDetail {
+  font-size: 12px;
+  color: var(--terracotta);
+  font-weight: 500;
+}
+
+.alertDetailAmber {
+  font-size: 12px;
+  color: var(--amber);
+  font-weight: 600;
+}
