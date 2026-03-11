@@ -14,6 +14,43 @@
   z-index: 50;
 }
 
+@media (min-width: 768px) {
+  .nav {
+    position: static;
+    transform: none;
+    left: auto;
+    width: 200px;
+    max-width: 200px;
+    min-height: calc(100vh - 57px);
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top: none;
+    border-right: 1px solid var(--linen);
+    padding: 24px 12px;
+    box-shadow: none;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+
+  .item {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px 16px;
+    width: 100%;
+    border-radius: var(--radius-md);
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+
+  .label {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
 .item {
   display: flex;
   flex-direction: column;

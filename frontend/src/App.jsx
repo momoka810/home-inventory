@@ -10,15 +10,17 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <main style={{ padding: '16px 16px 80px' }}>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/inventory" element={<InventoryPage />} />
-          <Route path="/shopping" element={<ShoppingPage />} />
-          <Route path="/recipe" element={<RecipePage />} />
-        </Routes>
-      </main>
-      <BottomNav />
+      <div style={{ display: 'flex', flex: 1 }}>
+        <BottomNav />
+        <main style={{ flex: 1, padding: '16px 16px 80px' }} className="app-main">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/inventory" element={<InventoryPage />} />
+            <Route path="/shopping" element={<ShoppingPage />} />
+            <Route path="/recipe" element={<RecipePage />} />
+          </Routes>
+        </main>
+      </div>
     </BrowserRouter>
   );
 }
